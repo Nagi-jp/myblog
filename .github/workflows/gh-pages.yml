@@ -1,0 +1,34 @@
+name: github pages
+
+on:
+push:
+    branches:
+    - main  # Set a branch that will trigger a deployment
+pull_request:
+
+jobs:
+deploy:
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v3
+        with:
+        submodules: true  # Fetch Hugo themes (true OR recursive)
+        fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+    - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+        hugo-version: 'latest'
+        extended: true    # コメントアウトを削除
+
+    - name: Build
+        working-directory: ./blog_site  # ビルドするディレクトリを変更
+        run: hugo --minify
+
+    - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+        personal_token: ${{ secrets.ACTIONS_DEPLOY_TOKEN }}   # Personal access token を指定
+        external_repository: st-little/st-little.github.io    # デプロイするリポジトリを指定
+        publish_dir: .  # デプロイするディレクトリを変更
