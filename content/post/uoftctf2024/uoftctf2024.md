@@ -108,7 +108,7 @@ print(encrypted_message_int)
 
 musical_e.png
 
-![](resources/_gen/images/musical_e.png)
+![](img/musical_e.png)
 
 output.txt
 
