@@ -39,7 +39,7 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
+        emoji: 
         subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
@@ -47,7 +47,7 @@ params:
             src: img/nagi-logo-150.png
 
     article:
-        math: false
+        math: true
         toc: true
         readingTime: true
         license:
