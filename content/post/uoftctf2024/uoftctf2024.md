@@ -1,6 +1,6 @@
 ---
 title: UofTCTF 2024
-date: 2024-01-17
+date: 2024-01-16
 math: true
 tags: [rsa,one time pad,elliptic curve]
 draft: false
