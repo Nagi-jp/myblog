@@ -1,8 +1,8 @@
-baseurl: https://Nago-jp.github.io/hugo/
+baseurl: https://Nago-jp.github.io/myblog/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: auYee
+title: example
 copyright: Example Person
 
 # languages:
