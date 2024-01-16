@@ -1,8 +1,8 @@
 baseurl: https://Nago-jp.github.io/myblog/
-languageCode: en-us
+languageCode: ja
 theme: hugo-theme-stack
 paginate: 5
-title: example
+title: Nagi's CTF Blog
 copyright: Example Person
 
 # languages:
