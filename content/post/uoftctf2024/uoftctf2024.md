@@ -77,7 +77,7 @@ print(flag)
 uoftctf{x0r_iz_r3v3rs1bl3_w17h_kn0wn_p141n73x7}
 ```
 
-## Pianoman
+## Pianoman (324pt)
 
 ### source
 
@@ -144,7 +144,7 @@ print(long_to_bytes(flag))
 uoftctf{AT1d2jMCVs03xxalViU9zTyiiV1INNJY}
 ```
 
-## Clever Thinking 
+## Clever Thinking (442pt)
 
 ### source
 
