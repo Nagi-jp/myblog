@@ -44,7 +44,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: img/nagi-logo-150.png
+            src: images/nagi-logo-150.png
 
     article:
         math: true
