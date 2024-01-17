@@ -149,7 +149,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: Nagi_want_money
 
             # Available values: summary, summary_large_image
             card: summary_large_image
