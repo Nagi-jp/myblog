@@ -4,10 +4,6 @@ name: Deploy Hugo site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    paths-ignore:
-      - "images/**"
-      - "LICENSE"
-      - "README.md"
     branches:
       - main
 
