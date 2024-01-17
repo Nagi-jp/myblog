@@ -108,7 +108,7 @@ print(encrypted_message_int)
 
 musical_e.png
 
-![](static/uoftctf2024/musical_e.png)
+![](musical_e.png)
 
 output.txt
 
