@@ -10,7 +10,7 @@ draft: false
 
 MapnaCTF 2024 に sayonara で参加して185位でした．
 
-同じ期間に別のCTFがあったのですが，そちらは crypto が１問しかなく，しかも激ムズだったので MapnaCTF に逃げてきました笑
+同じ期間に別のCTFがあったのですが，そちらは crypto が１問しかなく，しかも激ムズだったので僕だけ MapnaCTF に逃げてきました笑
 
 MapnaCTF は 学びのある良いCTFでした！
 
