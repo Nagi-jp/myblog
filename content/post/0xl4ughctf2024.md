@@ -1,6 +1,6 @@
 ---
 title: 0xL4ugh CTF 2024
-date: 2024-02-11
+date: 2024-02-10
 math: true
 tags: [elliptic curve]
 draft: false
