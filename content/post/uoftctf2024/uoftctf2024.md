@@ -43,7 +43,7 @@ flag.enc
 Flag: 982a9290d6d4bf88957586bbdcda8681de33c796c691bb9fde1a83d582c886988375838aead0e8c7dc2bc3d7cd97a4
 ```
 
-### discription
+### description
 flag を gen.py で暗号化したものが flag.enc である．
 
 ランダムな8bytesの鍵を生成し，それを用いて1bytesずつ xor を取ることで暗号化している．
